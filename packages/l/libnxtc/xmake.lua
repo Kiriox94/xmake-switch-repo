@@ -1,7 +1,6 @@
 package("libnxtc")
     set_base("switch-pkg")
     set_kind("library")
-    add_linkdirs("/opt/devkitpro/portlibs/switch/lib/")
 
     on_load(function(package)
         package:add("deps", "libnx")
