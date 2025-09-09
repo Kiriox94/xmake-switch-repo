@@ -10,11 +10,11 @@ local function getVersion(version)
 end
 
 package("borealis")
-    set_homepage("https://github.com/xfangfang/borealis")
+    set_homepage("https://github.com/kiriox94/borealis")
     set_description("Hardware accelerated, Nintendo Switch inspired UI library for PC, Android, iOS, PSV, PS4 and Nintendo Switch")
     set_license("Apache-2.0")
 
-    set_urls("https://github.com/xfangfang/borealis/$(version)", {
+    set_urls("https://github.com/kiriox94/borealis/$(version)", {
         version = getVersion
     })
     add_versions("2024.04.23-alpha", "f1dde726c122af4a40941ce8e0b27655eda9b0bc6e80d4e9034f5c7978b3e288")
